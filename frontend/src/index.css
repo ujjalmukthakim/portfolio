@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} */
+
+body{
+background: linear-gradient(to bottom,#f7d6d0,#ffc5d0,#fb6090,#821d30);
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
