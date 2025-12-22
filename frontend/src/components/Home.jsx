@@ -22,16 +22,18 @@ const Home = () => {
                          that prioritize performance, scalability, and real user needs.
                     </p>
                     
-                    {/* Buttons */} <NavLink to='/projects'>
+                    {/* Buttons */} 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                        <NavLink to='/projects'>
                         <button className="border border-white bg-[#821d30] text-[#f7d6d0] px-8 py-3 rounded font-bold uppercase tracking-widest text-xs hover:bg-black transition-colors">
                             View Projects
                         </button>
+                        </NavLink>
                         <button className="border border-gray-300 text-black px-8 py-3 rounded font-bold uppercase tracking-widest text-xs hover:border-[#821d30] hover:text-white transition-all">
                             Read Resume
                         </button>
                     </div>
-                    </NavLink>
+                    
                 </div>
 
                 {/* Image Section */}

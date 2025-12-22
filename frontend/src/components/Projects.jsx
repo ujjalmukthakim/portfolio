@@ -1,27 +1,53 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
+import Event from '../images/Event.jpeg'
+import Role from '../images/role.avif'
+import Unfollow from '../images/unfollow.jpg'
+import Todo from '../images/todo.webp'
 
 const Projects = () => {
     // Array of engineering projects
     const projects = [
+
+                {
+            title: "Daily Task",
+            category: "AI / Interface Design",
+            description: "Simple Daily Note App",
+            tech: ["Django", "Python", "React","DRF"],
+            link: "https://full-todo-list-1xy7.vercel.app/",
+            github: "https://github.com/ujjalmukthakim/FullTodoList",
+            image: Todo
+        },
+
+
         {
-            title: "Architectural CRM",
+            title: "Event Management",
             category: "Full Stack Development",
-            description: "A high-performance client management system built for boutique architectural firms. Focused on heavy data visualization and seamless UI.",
-            tech: ["React", "PostgreSQL", "Tailwind"],
-            link: "#",
-            github: "#",
-            image: "https://images.unsplash.com/photo-1503387762-592dea58ef21?q=80&w=1000&auto=format&fit=crop"
+            description: "[Username : shagor , Password : 1234] . A high-performance Event management system . Developed a full-stack event orchestration platform featuring custom filtering algorithms based on event chronologies. Implemented participant lifecycle tracking, allowing for precise data management of attendee lists and event history. ",
+            tech: ["Django", "PostgreSQL", "Tailwind"],
+            link: "https://event-b2q8.onrender.com/",
+            github: "https://github.com/ujjalmukthakim/Event",
+            image: Event
         },
         {
-            title: "Neural Engine Dashboard",
-            category: "AI / Interface Design",
-            description: "An analytics dashboard monitoring real-time neural network training sessions. Built with a focus on low-latency data streaming.",
-            tech: ["Next.js", "Python", "WebSockets"],
-            link: "#",
-            github: "#",
-            image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop"
+            title: "Tickets Booking & Role Base Control",
+            category: "Role Access Control ",
+            description: "[Username : shagor1234 , Password : 1234] .A sophisticated ticketing ecosystem featuring Role-Based Access Control (RBAC) and automated SMTP verification workflows. Designed to handle secure user onboarding and personalized dashboard experiences with real-time transactional email triggers. ",
+            tech: ["Django", "Python", "Tailwind","PostgreSQL"],
+            link: "https://event-management-1-alok.onrender.com/",
+            github: "https://github.com/ujjalmukthakim/Event_Management",
+            image: Role
+        },
+                {
+            title: "Instagram Unfollow List",
+            category: "Instagram",
+            description: "Built a sophisticated analytics tool that identifies unfollowers using headless browser automation. Engineered a custom data-diffing algorithm to provide accurate community insights without relying on restricted APIs.",
+            tech: ["Html", "CSS", "JavaScript"],
+            link: "https://ujjalmukthakim.github.io/New/",
+            github: "https://github.com/ujjalmukthakim/New",
+            image: Unfollow
         }
+
     ];
 
     return (
@@ -65,7 +91,7 @@ const Projects = () => {
                                             {project.title}
                                         </h3>
                                     </div>
-                                    <div className="flex gap-4 text-gray-400">
+                                    <div className="flex gap-4 text-black">
                                         <a href={project.github} target="_blank" rel="noreferrer" className="hover:text-[#821d30] transition-colors">
                                             <Github size={20}/>
                                         </a>
@@ -84,7 +110,7 @@ const Projects = () => {
                                     {project.tech.map((t, i) => (
                                         <span 
                                             key={i} 
-                                            className="text-[9px] uppercase tracking-widest border border-gray-200 px-3 py-1 text-gray-500 font-bold"
+                                            className="text-[9px] uppercase tracking-widest border border-gray-200 px-3 py-1 text-black font-bold"
                                         >
                                             {t}
                                         </span>
@@ -97,9 +123,9 @@ const Projects = () => {
 
                 {/* Footer Call-to-action */}
                 <div className="mt-24 text-center border-t border-gray-100 pt-16">
-                    <p className="text-gray-400 italic mb-6">Want to see more technical explorations?</p>
+                    <p className="text-black italic mb-6">Want to see more technical explorations?</p>
                     <a 
-                        href="https://github.com" 
+                        href="https://github.com/ujjalmukthakim?tab=repositories" 
                         target="_blank" 
                         rel="noreferrer"
                         className="inline-block bg-[#821d30] text-[#f7d6d0] px-10 py-4 rounded-sm font-bold uppercase tracking-[0.2em] text-xs hover:bg-black transition-all"

@@ -57,8 +57,8 @@ const Contact = () => {
                         <div className="pt-8 border-t border-gray-100">
                             <p className="text-[10px] uppercase tracking-widest text-black font-bold mb-6">Social Platforms</p>
                             <div className="flex gap-6">
-                                <a href="#" className="text-black hover:text-[#821d30] transition-colors"><Github size={24} /></a>
-                                <a href="#" className="text-black hover:text-[#821d30] transition-colors"><Linkedin size={24} /></a>
+                                <a href="https://github.com/ujjalmukthakim" className="text-black hover:text-[#821d30] transition-colors"><Github size={24} /></a>
+                                <a href="https://www.linkedin.com/in/shagor-mukthakim-880847316/" className="text-black hover:text-[#821d30] transition-colors"><Linkedin size={24} /></a>
                             </div>
                         </div>
                     </div>

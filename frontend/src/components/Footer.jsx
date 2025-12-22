@@ -31,10 +31,10 @@ const Footer = () => {
                         </div>
                         <div className="flex flex-col gap-3">
                             <p className="text-[10px] uppercase tracking-[0.3em] text-[#821d30] bg-white px-4 py-2 rounded font-bold mb-2">Social</p>
-                            <a href="#" className="text-sm text-black hover:text-[#821d30] transition-colors flex items-center gap-2 hover:bg-white px-4 py-2 rounded"><Github size={14}/> GitHub</a>
-                            <a href="#" className="text-sm text-black hover:text-[#821d30] transition-colors flex items-center gap-2 hover:bg-white px-4 py-2 rounded"><Linkedin size={14}/> LinkedIn</a>
-                            <a href="#" className="text-sm text-black hover:text-[#821d30] transition-colors flex items-center gap-2 hover:bg-white px-4 py-2 rounded"><Instagram size={14}/> Instagram</a>
-                            <a href="#" className="text-sm text-black hover:text-[#821d30] transition-colors flex items-center gap-2 hover:bg-white px-4 py-2 rounded"><Mail size={14}/> Email</a>
+                            <a href="https://github.com/ujjalmukthakim" className="text-sm text-black hover:text-[#821d30] transition-colors flex items-center gap-2 hover:bg-white px-4 py-2 rounded"><Github size={14}/> GitHub</a>
+                            <a href="https://www.linkedin.com/in/shagor-mukthakim-880847316/" className="text-sm text-black hover:text-[#821d30] transition-colors flex items-center gap-2 hover:bg-white px-4 py-2 rounded"><Linkedin size={14}/> LinkedIn</a>
+                            <a href="https://www.instagram.com/shagormukthakim/" className="text-sm text-black hover:text-[#821d30] transition-colors flex items-center gap-2 hover:bg-white px-4 py-2 rounded"><Instagram size={14}/> Instagram</a>
+                            <a href="mailto:shagormukthakim2143@gmail.com" className="text-sm text-black hover:text-[#821d30] transition-colors flex items-center gap-2 hover:bg-white px-4 py-2 rounded"><Mail size={14}/> Email</a>
                         </div>
                     </div>
                 </div>
