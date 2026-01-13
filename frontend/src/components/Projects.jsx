@@ -11,11 +11,11 @@ const Projects = () => {
 
                 {
             title: "Daily Task",
-            category: "AI / Interface Design",
+            category: "Software App Development ",
             description: "Simple Daily Note App",
             tech: ["Django", "Python", "React","DRF"],
-            link: "https://full-todo-list-1xy7.vercel.app/",
-            github: "https://github.com/ujjalmukthakim/FullTodoList",
+            link: "https://to-do-steel-alpha.vercel.app/",
+            github: "https://github.com/ujjalmukthakim/To-do",
             image: Todo
         },
 

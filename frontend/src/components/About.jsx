@@ -29,12 +29,12 @@ const About = () => {
 
                         <div className="space-y-4 text-black leading-relaxed">
                             <p>
-                                My journey began with a curiosity for how things work, which evolved into a career 
+                                My journey began with a curiosity for how things work which evolved into a career 
                                 dedicated to mastering the modern web ecosystem. I specialize in building 
-                                scalable applications using React, Node.js, and cloud architecture.
+                                scalable applications using React, Django and RestApi.
                             </p>
                             <p>
-                                I believe that software should be "invisible"—so intuitive and robust that 
+                                I believe that software should be "invisible", so intuitive and robust that 
                                 the user never has to think about the complexity powering their experience. 
                                 This philosophy guides every line of code I write and every architectural 
                                 decision I make. I love to solve complex problems.
