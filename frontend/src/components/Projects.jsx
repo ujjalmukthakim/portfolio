@@ -15,6 +15,7 @@ const Projects = () => {
             description: "Simple Daily Note App",
             tech: ["Django", "Python", "React","DRF"],
             link: "https://to-do-steel-alpha.vercel.app/",
+            b_link:"https://to-do-4qfi.onrender.com",
             github: "https://github.com/ujjalmukthakim/To-do",
             image: Todo
         },
@@ -95,6 +96,13 @@ const Projects = () => {
                                         <a href={project.github} target="_blank" rel="noreferrer" className="hover:text-[#821d30] transition-colors">
                                             <Github size={20}/>
                                         </a>
+                                        {project.b_link ? (
+                                        <a href={project.link} target="_blank" rel="noreferrer" className="hover:text-[#821d30] transition-colors">
+                                        <ExternalLink size={20}/>
+                                        </a>
+                                        ) : null}
+
+                                        
                                         <a href={project.link} target="_blank" rel="noreferrer" className="hover:text-[#821d30] transition-colors">
                                             <ExternalLink size={20}/>
                                         </a>

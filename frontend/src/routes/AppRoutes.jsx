@@ -11,6 +11,7 @@ import MainRoute from '../components/MainRoute';
 
 
 
+
 const AppRoutes = () => {
     return (
        <Routes>
@@ -20,6 +21,7 @@ const AppRoutes = () => {
         <Route path='projects' element={<Projects/>}/>
         <Route path='skill' element={<Skill/>}/>
         <Route path='contact' element={<Contact/>}/>
+
         
 
         

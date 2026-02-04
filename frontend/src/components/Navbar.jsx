@@ -23,6 +23,8 @@ const Navbar = () => {
                     <NavLink to="/projects" className={linkStyles}>Projects</NavLink>
                     <NavLink to="/skill" className={linkStyles}>Skill</NavLink>
                     <NavLink to="/contact" className={linkStyles}>Contact</NavLink>
+
+
                 </div>
 
                 {/* Mobile Layout: Toggle Button (Aligned Left) */}
@@ -40,6 +42,7 @@ const Navbar = () => {
                     <NavLink to="/about" onClick={toggleMenu} className={linkStyles}>About</NavLink>
                     <NavLink to="/projects" onClick={toggleMenu} className={linkStyles}>Projects</NavLink>
                     <NavLink to="/skill" onClick={toggleMenu} className={linkStyles}>Skill</NavLink>
+
                     <NavLink to="/contact" onClick={toggleMenu} className="text-[#821d30] font-bold ">Contact</NavLink>
                     <hr />
                 </div>
