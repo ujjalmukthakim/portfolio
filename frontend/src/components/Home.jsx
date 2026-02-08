@@ -43,7 +43,7 @@ const Home = () => {
                         <div className="absolute -inset-4 border border-gray-100 rounded-lg -z-10 group-hover:border-[#821d30]/20 transition-colors duration-500"></div>
                         
                         {/* Main Image Container */}
-                        <div className="overflow-hidden rounded-lg grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl">
+                        <div className="overflow-hidden rounded-lg grayscale-0 hover:grayscale-0 transition-all duration-700 shadow-2xl">
                             <img 
                                 src={profilePic}
                                 alt="Software Engineer Portrait" 
