@@ -97,7 +97,7 @@ const Projects = () => {
                                             <Github size={20}/>
                                         </a>
                                         {project.b_link ? (
-                                        <a href={project.link} target="_blank" rel="noreferrer" className="hover:text-[#821d30] transition-colors">
+                                        <a href={project.b_link} target="_blank" rel="noreferrer" className="hover:text-[#821d30] transition-colors">
                                         <ExternalLink size={20}/>
                                         </a>
                                         ) : null}
