@@ -5,9 +5,22 @@ import Role from '../images/role.avif'
 import Unfollow from '../images/unfollow.jpg'
 import Todo from '../images/todo.webp'
 
+import Anonymous from '../images/anonymous.png'
+
 const Projects = () => {
     // Array of engineering projects
     const projects = [
+
+                        {
+            title: "Anonymous Confessions",
+            category: "Software App Development ",
+            description: "A secure and anonymous platform designed for users to post and explore honest confessions without compromising privacy",
+            tech: ["Django", "Python", "React","DRF"],
+            link: "https://anonymous-confession-git-main-shagormukthakims-projects.vercel.app",
+            b_link:"https://anonymousconfession-fil2.onrender.com",
+            github: "https://github.com/ujjalmukthakim/AnonymousConfession",
+            image: Anonymous
+        },
 
                 {
             title: "Daily Task",
