@@ -13,3 +13,7 @@ background: linear-gradient(to bottom,#f7d6d0,#ffc5d0,#fb6090,#821d30);
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
+
+html {
+    scroll-behavior: smooth;
+}
